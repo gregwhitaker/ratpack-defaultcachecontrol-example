@@ -14,6 +14,7 @@ public class Main {
 
     public static void main(String... args) throws Exception {
         ServerConfig serverConfig = ServerConfig.builder()
+                .yaml("config.yml")
                 .baseDir(BaseDir.find())
                 .build();
 
