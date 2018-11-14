@@ -2,6 +2,7 @@ package ratpack.example;
 
 import ratpack.example.api.ApiHandlers;
 import ratpack.example.api.ApiModule;
+import ratpack.example.api.filter.CacheControlFilter;
 import ratpack.guice.Guice;
 import ratpack.server.BaseDir;
 import ratpack.server.RatpackServer;
@@ -25,6 +26,7 @@ public class Main {
                 )
                 .handlers(chain -> chain
                         .insert(ApiHandlers.class)
+                        .all(CacheControlFilter.class)
                 )
         );
     }
