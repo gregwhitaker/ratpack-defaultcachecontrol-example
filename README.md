@@ -2,6 +2,8 @@
 
 An example of setting a default cache-control header in a [Ratpack](https://ratpack.io) application.
 
+## Running the Example
+
 ## Bugs and Feedback
 For bugs, questions, and discussions please use the [Github Issues](https://github.com/gregwhitaker/ratpack-defaultcachecontrol-example/issues).
 
