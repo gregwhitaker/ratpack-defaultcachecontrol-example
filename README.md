@@ -1,4 +1,5 @@
 # ratpack-defaultcachecontrol-example
+[![Build Status](https://travis-ci.org/gregwhitaker/ratpack-defaultcachecontrol-example.svg?branch=master)](https://travis-ci.org/gregwhitaker/ratpack-defaultcachecontrol-example)
 
 An example of setting a default cache-control header in a [Ratpack](https://ratpack.io) application.
 
