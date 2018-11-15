@@ -3,6 +3,9 @@ package ratpack.example.api.cacheable;
 import ratpack.handling.Context;
 import ratpack.handling.Handler;
 
+/**
+ * Handler that has a cache-control header set and will not receive the default header.
+ */
 public class GetCacheHandler implements Handler {
 
     @Override
