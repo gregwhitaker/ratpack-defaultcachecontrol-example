@@ -7,6 +7,6 @@ public class GetNoCacheHandler implements Handler {
 
     @Override
     public void handle(Context ctx) throws Exception {
-        ctx.render("This is the GetNoCacheHandler and it's cache-control is set by the default cache-control filter.");
+        ctx.render("Cache-Control header set in the Default Cache-Control Filter.");
     }
 }

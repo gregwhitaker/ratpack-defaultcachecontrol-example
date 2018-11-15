@@ -7,6 +7,7 @@ public class GetCacheHandler implements Handler {
 
     @Override
     public void handle(Context ctx) throws Exception {
-        ctx.render("This is the GetCacheHandler and it's cache-control is explicitly set to: max-age=3600");
+        ctx.getResponse().getHeaders().add("Cache-Control", "max-age=3600");
+        ctx.render("Cache-Control header set in handler");
     }
 }

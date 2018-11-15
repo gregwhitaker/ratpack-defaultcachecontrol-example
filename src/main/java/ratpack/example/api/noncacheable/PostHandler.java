@@ -7,6 +7,6 @@ public class PostHandler implements Handler {
 
     @Override
     public void handle(Context ctx) throws Exception {
-        ctx.render("This is the PostHandler and it is not cached.");
+        ctx.render("No Cache-Control header set for POST reqeusts.");
     }
 }
